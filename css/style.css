@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav li{
+    list-style: none;
+    float: left;
+    padding: 10px;
+   }
+.nav li:hover{
+    background-color:gray;
+    border-radius: 5px;
+    color: rgb(8, 8, 8);
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    padding: 30px 15px;
+}
+.nav{
+    height: 50px;
+    /* background-color: gray; */
+    line-height:15px;
+}
+.nav ul{
+    float: right;
+    margin-right: 20px;
+}
+.half-width{
+    width: 40%;
+    margin: 5%;
+    /* padding: 2%; */
+    float: left;
+}
+.name-heighlight{
+    color: orange;
+}
+.half-width h1{
+    font-size: 40px;
+    margin-top: 30px;
+}
+.half-width p{
+    text-transform:capitalize;
+    text-align:justify;
+    margin-top: 30px;
+}
+.half-width img{
+    width: 100%;
+}
+.top-bannar{
+    background-image: url(../img/top-banner.png);
+    background-repeat:no-repeat ;    
+}
+section{
+    height: 500px;
+}
+.link-button{
+    text-decoration: none;
+    background-image:linear-gradient(45deg, lightSalmon,Tomato );
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    clear: both;
+    ;}
+.dram-part{
+        background-image: url(../img/dream-bg.png);
+        background-repeat:no-repeat;
+        background-position: right bottom;
+
+    }   
+
+ .experience-area{
+    clear: both;
+    background-image: url(../img/exp-bg.png);
+    background-repeat:no-repeat;
+    background-position: left center;
+ }  
+ .single-experience{
+    box-shadow: 10px 10px 40px grey;
+    height: 50%;
+    width: 35%;  
+ } 
+ #full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightSalmon,tomato);
+    border-image-slice: 1;                                                                                                                                                                                                                                                                                                                           
+ }
+#junior-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue ,cyan);
+    border-image-slice: 1;  
+}
+footer p{
+    text-align: center;
+}
